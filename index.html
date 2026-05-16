@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>альфа</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/cards.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-left">
+          <a href="/" class="logo">
+            <svg height="40" viewBox="0 0 33 50" width="28" class="n5qQXQ">
+              <path
+                clip-rule="evenodd"
+                d="M0 49.982v-6.825h32.61v6.825H0zm11.646-28.764h9.064L16.39 7.526h-.17l-4.573 13.692h-.001zm10.587-16.22l9.615 28.887h-7.115l-2.16-6.866H9.698l-2.33 6.867H.679l10.09-28.887C11.746 2.197 12.887 0 16.559 0s4.744 2.206 5.674 4.999v-.001z"
+                fill="red"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+          <div class="menu desktop-only">
+            <div class="nav-item" data-nav="private-clients">
+              <p>Частным лицам</p>
+            </div>
+            <div class="nav-item" data-nav="small-business">
+              <p>Малому бизнесу и&nbsp;ИП</p>
+            </div>
+            <div class="nav-item" data-nav="large-business">
+              <p>Среднему и крупному бизнесу</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-actions desktop-only">
+          <button class="search-button" aria-label="Поиск"></button>
+          <div class="cta-button">
+            <p>Стать клиентом</p>
+          </div>
+          <a href="#" class="login-button">Войти</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="dropdown">
+      <div class="dropdown-container">
+        <div class="titles" data-nav-titles></div>
+        <div class="content" data-nav-content></div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+
+    <section class="hero">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div>
+        <a href="#" class="side-card side-card-top"></a>
+        <a href="#" class="side-card side-card-bottom"></a>
+      </div>
+    </section>
+
+    <section class="services">
+      <div>
+        <h2>Выбирайте лучшее</h2>
+        <div class="segmented-control">
+          <div class="active" data-card-category="all">Для всех</div>
+          <div data-card-category="small-business">Малому бизнесу</div>
+          <div data-card-category="large-business">Крупному бизнесу</div>
+          <div data-card-background></div>
+        </div>
+      </div>
+      <div class="cards" data-cards-container></div>
+    </section>
+
+    <section class="cashback-block add-section">
+      <div class="cashback-head">
+        <h2>Рассчитайте выгоду</h2>
+        <div class="deposit-switcher" data-deposit-switcher>
+          <div class="active" data-deposit-tab="deposit">Вклад</div>
+          <div data-deposit-tab="account">Счёт</div>
+          <div data-deposit-tab="credit">Кредит</div>
+          <div data-deposit-tab="mortgage">Ипотека</div>
+          <div data-deposit-background></div>
+        </div>
+      </div>
+      <div class="cashback-photos">
+        <div class="cashback-text"></div>
+        <div class="phone-card"></div>
+      </div>
+    </section>
+
+    <section class="bank-services add-section">
+      <h2>Сервисы</h2>
+      <div class="service-grid">
+        <a href="#" class="service-tile service-tile-big"></a>
+        <a href="#" class="service-tile"></a>
+        <a href="#" class="service-tile"></a>
+        <a href="#" class="service-tile"></a>
+        <a href="#" class="service-tile service-tile-dark"></a>
+        <a href="#" class="service-tile"></a>
+      </div>
+    </section>
+
+    <section class="offers-block add-section">
+      <div class="offers-head">
+        <h2>Пользуйтесь выгодными<br />предложениями в наших сервисах</h2>
+        <div class="screen-switcher offers-switcher" data-offers-switcher>
+          <div class="active" data-offer-tab="mobile">Альфа-Мобайл</div>
+          <div data-offer-tab="travel">Альфа-Тревел</div>
+          <div data-offer-tab="poster">Афиша</div>
+          <div data-offer-tab="gas">Заправки</div>
+          <div data-offer-tab="payments">Платежи</div>
+          <div data-offer-tab="insurance">Страхование</div>
+          <div data-offers-background></div>
+        </div>
+      </div>
+      <div class="offers-grid">
+        <a href="#" class="offer-card offer-card-blue"></a>
+        <a href="#" class="offer-card offer-card-pink"></a>
+        <a href="#" class="wide-link"></a>
+      </div>
+    </section>
+
+    <section class="about-bank add-section">
+      <div class="about-head">
+        <h2>О банке</h2>
+        <div class="screen-switcher about-switcher" data-about-switcher>
+          <div class="active" data-about-tab="achievements">Достижения</div>
+          <div data-about-tab="roles">Роли в Альфе</div>
+          <div data-about-background></div>
+        </div>
+      </div>
+      <div class="about-grid">
+        <a href="#" class="about-card about-card-main"></a>
+        <a href="#" class="about-card"></a>
+        <a href="#" class="about-card"></a>
+      </div>
+    </section>
+
+    <a href="cards/card.html"></a>
+  </body>
+</html>
